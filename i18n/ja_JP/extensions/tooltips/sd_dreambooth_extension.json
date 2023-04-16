@@ -73,7 +73,7 @@
   },
   "Create From Hub": {
     "key": "ハブから作成",
-    "tooltip": "ローカルチェックポイントを使用する代わりに、Huggingface.coからモデルをインポートします。ハブモデルには拡散ウエイトが含まれていなければなりません。クローンしたモデルでローカルフォルダを指定することができます。この場合、HFトークンは必要ありません。"
+    "tooltip": "Local checkpointを使用する代わりに、Huggingface.coからモデルをインポートします。ハブモデルには拡散ウエイトが含まれていなければなりません。クローンしたモデルでローカルフォルダを指定することができます。この場合、HFトークンは必要ありません。"
   },
   "Create Model": {
     "key": "モデルを作成",
@@ -113,7 +113,7 @@
   },
   "Generate Ckpt": {
     "key": "Ckptを生成",
-    "tooltip": "現在のトレーニングレベルでチェックポイントを生成します。"
+    "tooltip": "現在のトレーニングレベルでCheckpointを生成します。"
   },
   "Generate Class Images": {
     "key": "クラス画像の生成",
@@ -121,7 +121,7 @@
   },
   "Generate Classification Images Using txt2img": {
     "key": "txt2imgを使用して分類画像を生成する。",
-    "tooltip": "ソース チェックポイントと TXT2IMG を使用してクラスイメージを生成します。"
+    "tooltip": "Source checkpoinとtxt2imgを使用してクラスイメージを生成します。"
   },
   "Generate Classification Images to match Instance Resolutions": {
     "key": "インスタンスの解像度に合わせた分類画像の生成",
@@ -141,15 +141,15 @@
   },
   "Generate a .ckpt file when saving during training.": {
     "key": "トレーニング中に保存するときに .ckpt ファイルを生成します。",
-    "tooltip": "有効にすると、学習中に指定されたエポック間隔でチェックポイントが生成されます。これは、学習中に「重みを保存」ボタンを使って手動で生成することも制御します。"
+    "tooltip": "有効にすると、学習中に指定されたエポック間隔でcheckpointが生成されます。これは、学習中に「重みを保存」ボタンを使って手動で生成することも制御します。"
   },
   "Generate a .ckpt file when training completes.": {
     "key": "トレーニングが完了したら.ckptファイルを生成します。",
-    "tooltip": "有効にすると、トレーニングが正常に完了したときにチェックポイントが生成されます。"
+    "tooltip": "有効にすると、トレーニングが正常に完了したときにcheckpointが生成されます。"
   },
   "Generate a .ckpt file when training is cancelled.": {
     "key": "トレーニング中止時に.ckptファイルを生成する。",
-    "tooltip": "有効にすると、ユーザーによってトレーニングがキャンセルされたときに、チェックポイントが生成されます。"
+    "tooltip": "有効にすると、ユーザーによってトレーニングがキャンセルされたときに、Checkpointが生成されます。"
   },
   "Generate lora weights Generate lora weights for additional networks.": {
     "key": "追加のネットワークのためのloraの重みを生成します。",
@@ -172,7 +172,7 @@
     "tooltip": "後方/更新パスを実行する前に蓄積する更新ステップの数。バッチサイズと同じになるようにする必要があります。"
   },
   "Gradient Checkpointing": {
-    "key": "チェックポイントの傾度",
+    "key": "Checkpointの傾度",
     "tooltip": "これは、特定の層の活性化をクリアし、後方パスで再計算することで、メモリ使用量を削減する手法です。実質的に、余分な計算時間とメモリ使用量の削減をトレードすることになります。"
   },
   "Graph Smoothing Steps": {
@@ -181,7 +181,7 @@
   },
   "Half Model": {
     "key": "ハーフモデル",
-    "tooltip": "これを有効にすると、fp16 精度のモデルが生成されます。品質損失を最小限に抑えながら、チェックポイントを小さくします。"
+    "tooltip": "これを有効にすると、fp16 精度のモデルが生成されます。品質損失を最小限に抑えながらcheckpointを小さくします。"
   },
   "HuggingFace Token": {
     "key": "HuggingFace Token",
@@ -217,7 +217,7 @@
   },
   "Lora Model": {
     "key": "LoRA モデル",
-    "tooltip": "LoRAモデルは、継続的な微調整やチェックポイント生成のためにロードします。"
+    "tooltip": "LoRAモデルは、Fine Tuneやcheckpoint生成のためにロードします。"
   },
   "Use Lora Extended": {
     "key": "LoRA 拡張を使用",
@@ -237,7 +237,7 @@
   },
   "Lora Text Weight": {
     "key": "LoRA テキスト Weight",
-    "tooltip": "チェックポイントを作成する際に、LoRA Weightを何％テキストエンコーダーに適用するか。"
+    "tooltip": "Checkpointを作成する際に、LoRA Weightを何％テキストエンコーダーに適用するか。"
   },
   "Lora UNET Learning Rate": {
     "key": "LoRAのUNET学習率",
@@ -245,7 +245,7 @@
   },
   "Lora Weight": {
     "key": "LoRA Weight",
-    "tooltip": "チェックポイントを作成する際に、ローラウェイトを何％ユニットに適用するか。"
+    "tooltip": "Checkpointを作成する際に、LoRA Weightsを何％UNetに適用するか。"
   },
   "Max Resolution": {
     "key": "最大解像度",
@@ -356,16 +356,16 @@
     "tooltip": "検証サンプル画像の生成時に使用するシード。-1 はサポートされていません。"
   },
   "Save Checkpoint to Subdirectory": {
-    "key": "チェックポイントをサブディレクトリに保存",
+    "key": "Checkpointをサブディレクトリに保存",
     "tooltip": "有効にすると、チェックポイントは、選択したチェックポイントフォルダのサブディレクトリに保存されます。"
   },
   "Save Model Frequency (Epochs)": {
     "key": "モデルの頻度を保存 (エポック)",
-    "tooltip": "N個のエポックごとにチェックポイントを保存する。"
+    "tooltip": "N Epochごとにcheckpointを保存する。"
   },
   "Save Model Frequency (Step)": {
     "key": "モデルの保存頻度 (ステップ)",
-    "tooltip": "Nエポックごとにチェックポイントを保存します。バッチ数で割り切れる必要があります。"
+    "tooltip": "N Epochごとにcheckpointを保存します。バッチ数で割り切れる必要があります。"
   },
   "Save Preview(s) Frequency (Epochs)": {
     "key": "プレビュー保存頻度 (エポック数)",
