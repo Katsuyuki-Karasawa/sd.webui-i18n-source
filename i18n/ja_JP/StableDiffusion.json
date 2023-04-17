@@ -427,7 +427,7 @@
   "VRAM usage polls per second during generation. Set to 0 to disable.": "生成中のVRAM使用率の取得間隔。0にすると取得しない。",
   "Always print all generation info to standard output": "常にすべての生成に関する情報を標準出力(stdout)に出力する",
   "Add a second progress bar to the console that shows progress for an entire job.": "ジョブ全体の進捗をコンソールに表示する2つ目のプログレスバーを追加する",
-  "Print extra hypernetwork information to console.": "追加のハイパーネットワーク情報をコンソールに出力",
+  "Print extra hypernetwork information to console.": "追加のHypernetworksの情報をコンソールに出力",
   "Move VAE and CLIP to RAM when training if possible. Saves VRAM.": "hypernetworkの学習をする際、VAEとCLIPをRAMへ退避。VRAMが節約できます。",
   "Turn on pin_memory for DataLoader. Makes training slightly faster but can increase memory usage.": "DataLoaderのpin_memoryをONにします。トレーニングが若干速くなりますが、メモリ使用量が増加する可能性があります。",
   "Saves Optimizer state as separate *.optim file. Training of embedding or HN can be resumed with the matching optim file.": "Optimizerの状態を別の*.optimファイルとして保存します。 埋め込みまたはHNのトレーニングは、一致するoptimファイルで再開できます。",
