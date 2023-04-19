@@ -35,7 +35,7 @@
   "Limiting value": "限界値",
   "Norm type": "ノルム種別",
   "Use Noise training scheduler(test)": "ノイズトレーニングスケジューラを使用(テスト)",
-  "Restarts noise scheduler, or linear": "ノイズスケジューラまたはリニアを再起動します",
+  "Restarts noise scheduler, or linear": "Noise scheduler、またはlinearを再起動します",
   "Restarts noise scheduler every nth epoch": "ノイズスケジューラを各エポックごとに再起動します",
   "Unload Optimizer when generating preview(hypernetwork)": "プレビューの生成時(hypernetwork) にオプティマイザをアンロードします",
   "Prompt template file": "プロンプトテンプレートファイル",
