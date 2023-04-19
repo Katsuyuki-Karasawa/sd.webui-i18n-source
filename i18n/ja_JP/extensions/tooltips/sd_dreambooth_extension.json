@@ -357,7 +357,7 @@
   },
   "Save Checkpoint to Subdirectory": {
     "key": "Checkpointをサブディレクトリに保存",
-    "tooltip": "有効にすると、Checkpointは、選択したCheckpointフォルダのサブディレクトリに保存されます。"
+    "tooltip": "有効にすると、チェックポイントは、選択したチェックポイントフォルダのサブディレクトリに保存されます。"
   },
   "Save Model Frequency (Epochs)": {
     "key": "モデルの頻度を保存 (エポック)",
@@ -381,7 +381,7 @@
   },
   "Save Weights": {
     "key": "重みを保存",
-    "tooltip": "学習中の保存のために、保存セクションで指定されたように重み/checkpoint/snapshotを保存する。"
+    "tooltip": "学習中の保存のために、保存セクションで指定されたように重み/チェックポイント/スナップショットを保存する。"
   },
   "Save and Test Webhook": {
     "key": "保存してWebhookをテスト",
@@ -424,8 +424,8 @@
     "tooltip": "有効にすると、最初の「,」の後のタグがランダムに並べ替えられます。トレーニングが向上する可能性があります。"
   },
   "Source Checkpoint": {
-    "key": "Source Checkpoint",
-    "tooltip": "トレーニングのために抽出するsource checkpoint"
+    "key": "ソースのチェックポイント",
+    "tooltip": "トレーニングのために抽出するソースチェックポイントです。"
   },
   "Step Ratio of Text Encoder Training": {
     "key": "テキストエンコーダトレーニングのステップ比率",
@@ -496,11 +496,11 @@
     "tooltip": "Text-to-Image DiffusionモデルのFine-tuningに、低ランクのAdaptationを使用します。VRAMの使用量を少なくし、full checkpointファイルではなく.ptファイルを保存します。"
   },
   "Use Lifetime Epochs When Saving": {
-    "key": "保存時に有効中のEpochを使用する",
-    "tooltip": "チェックを入れると、現在のトレーニングEpochではなく、Lifetime Epochを使用してプレビュー画像とcheckpointを保存します。"
+    "key": "保存時に有効中のエポックを使用する",
+    "tooltip": "チェックを入れると、現在のトレーニングエポックではなく、ライフタイムエポックを使用してプレビュー画像とチェックポイントを保存します。"
   },
   "Use Lifetime Steps When Saving": {
-    "key": "保存時にLifetime Stepsを使用する",
-    "tooltip": "チェックを入れると、プレビュー画像とcheckpointを、現在のトレーニングステップではなく、Lifetime stepを基準にして保存します。"
+    "key": "保存時にライフタイムステップを使用する",
+    "tooltip": "チェックを入れると、プレビュー画像とチェックポイントを、現在のトレーニングステップではなく、ライフタイムステップを基準にして保存します。"
   }
 }
