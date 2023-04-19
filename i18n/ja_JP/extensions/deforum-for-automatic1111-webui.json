@@ -127,7 +127,7 @@
   "zeros": "ゼロ",
   "Sampling mode": "サンプリングモード",
   "bicubic": "バイキュービック",
-  "bilinear": "バイリニア",
+  "bilinear": "bilinear",
   "nearest": "一番近い",
   "FOV schedule": "FOVのスケジュール",
   "Near schedule": "近いスケジュール",
