@@ -568,7 +568,7 @@
   "Check for updates": "アップデートを確認",
   "Disable all extensions": "すべての拡張機能の無効化",
   "none": "なし",
-  "extra": "内臓機能以外",
+  "extra": "外部拡張機能",
   "all": "すべて",
   "Extension": "拡張機能",
   "Use checkbox to enable the extension; it will be enabled or disabled when you click apply button": "チェックボックスを使って、拡張機能の有効化・無効化を行えます。適用ボタンをクリックすると、有効・無効の状態が反映されます。",
