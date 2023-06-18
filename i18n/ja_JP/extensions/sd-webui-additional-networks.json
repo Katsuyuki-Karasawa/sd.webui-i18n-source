@@ -34,7 +34,7 @@
   "AddNet Model 1": "モデル 1(AddNet)",
   "AddNet Weight 1": "重み 1(AddNet)",
   "AddNet UNet Weight 1": "UNetの重み 1(AddNet)",
-  "AddNet TEnc Weight 1": "AddNetNetの重み 1",
+  "AddNet TEnc Weight 1": "TEncの重み 1",
   "AddNet Model 2": "モデル 2(AddNet)",
   "AddNet Weight 2": "重み 2(AddNet)",
   "AddNet UNet Weight 2": "UNetの重み 2(AddNet)",
