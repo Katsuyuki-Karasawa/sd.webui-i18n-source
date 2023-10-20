@@ -139,7 +139,7 @@
   "Smoothing generated images by skipping a few very last steps and averaging together some images before them.": "最後の数ステップをスキップし、それ以前のいくつかの画像をまとめて平均化することで生成された画像を平滑化します。",
   "sd-webui-controlnet": "sd-webui-controlnet",
   "WebUI extension for ControlNet. Note: (WIP), so don't expect seed reproducibility - as updates may change things.": "ControlNetのWebUI拡張機能です。注：（作成途中）アップデートによって状況が変わる可能性があるため、シードによる再現性を期待しないでください。",
-  "Latent Couple": "潜在カップル",
+  "Latent Couple": "Latent Couple",
   "An extension of the built-in Composable Diffusion, allows you to determine the region of the latent space that reflects your subprompts. Note: New maintainer, uninstall prev. ext if needed.": "内蔵のComposable Diffusionを拡張したもので、サブプロンプトを反映した潜像空間の領域を決定することができます。 注: 新しいメンテナーのリポジトリURLに移行したため、必要に応じて古い拡張機能をアンインストールしてください。",
   "Composable LoRA": "Composable LoRA",
   "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.": "ANDキーワード（Composable diffusion）を使って、LoRAをサブプロンプトに限定できるようになります。Latent Couple extensionと組み合わせると便利です。",
