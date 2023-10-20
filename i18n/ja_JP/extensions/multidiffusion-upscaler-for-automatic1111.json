@@ -1,5 +1,5 @@
 {
-  "MultiDiffusion": "MultiDiffusion",
+  "MultiDiffusion": "マルチ拡散法",
   "Enable MultiDiffusion": "MultiDiffusionを有効にする",
   "Overwrite image size": "現在の画像サイズで上書き",
   "Keep input image size": "入力画像のサイズを維持する",
@@ -10,7 +10,7 @@
   "Latent tile overlap": "Latentタイルの重なり幅",
   "Latent tile batch size": "Latentタイル バッチサイズ",
   "Move ControlNet images to CPU (if applicable)": "ControlNetの画像をCPUに移動 (可能な場合)",
-  "Tiled VAE": "Tiled VAE",
+  "Tiled VAE": "タイル状のVAE",
   "Enable": "有効化",
   "Move VAE to GPU": "VAEをGPUに移動",
   "Please use smaller tile size when see CUDA error: out of memory.": "CUDA error: out of memoryが発生した場合は、タイルサイズを小さくしてください。",

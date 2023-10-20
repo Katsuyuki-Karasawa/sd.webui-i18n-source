@@ -9,7 +9,7 @@
   },
   "Amount of time to pause between Epochs (s)": {
     "key": "エポック間で一時停止する時間(秒)",
-    "tooltip": "「Nエポック後に一時停止」の値が0より大きい場合、訓練は数秒で一時停止されます。"
+    "tooltip": "「Nエポック後に一時停止」の値が0より大きい場合、トレーニングは数秒で一時停止されます。"
   },
   "Apply Horizontal Flip": {
     "key": "水平フリップを適用",
@@ -60,7 +60,7 @@
     "tooltip": "分類画像/規則画像を生成する際に使用するステップ数。"
   },
   "Clip Skip": {
-    "key": "Clip Skip",
+    "key": "クリップスキップ",
     "tooltip": "テキストエンコーダの背面からのn番目のレイヤーの出力を使用 (n>=1)"
   },
   "Concepts List": {
@@ -96,7 +96,7 @@
     "tooltip": "インスタンスとクラス・イメージを調べて、対応するクラス・イメージのないインスタンスイメージを報告します。"
   },
   "Discord Webhook": {
-    "key": "Discord Webhook",
+    "key": "DiscordをWebフォーク",
     "tooltip": "生成後にトレーニングサンプルをDiscordチャンネルに送信する"
   },
   "Existing Prompt Contents": {
@@ -184,7 +184,7 @@
     "tooltip": "これを有効にすると、fp16 精度のモデルが生成されます。品質損失を最小限に抑えながらcheckpointを小さくします。"
   },
   "HuggingFace Token": {
-    "key": "HuggingFace Token",
+    "key": "HuggingFaceトークン",
     "tooltip": "ファイルのクローンに使用するhuggingfaceトークン。"
   },
   "Instance Prompt": {
