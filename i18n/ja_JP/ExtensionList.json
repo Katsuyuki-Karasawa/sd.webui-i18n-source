@@ -149,7 +149,7 @@
   "This SD extension allows you to turn posts from various image boorus into stable diffusion prompts. It does so by pulling a list of tags down from their API. You can copy-paste in a link to the post you want yourself, or use the built-in search feature to do it all without leaving SD.": "このSD拡張機能により、さまざまな画像の投稿を安定した拡散プロンプトに変換できます。 これは API からタグの一覧を引き出すことで行います。 自分で好きな投稿へのリンクをコピー&ペーストすることも、内蔵の検索機能を使ってSDを離れることなくすべてを行うことも可能です。",
   "Gelbooru Prompt": "Gelbooru Prompt",
   "Extension that gets tags for saved gelbooru images in AUTOMATIC1111's Stable Diffusion webui": "AUTOMATIC1111のStable Diffusion webui上で、gelbooru画像のタグを取得する拡張機能",
-  "NSFW checker": "NSFWチェッカー",
+  "NSFW checker": "NSFW checker",
   "Replaces NSFW images with black.": "NSFW画像を黒に置き換えます。",
   "Diffusion Defender": "Diffusion Defender",
   "Prompt blacklist, find and replace, for semi-private and public instances.": "セミプライベートやパブリックインスタンスのためのブラックリストプロンプトを検索、置換する機能",
