@@ -86,7 +86,7 @@
   "Var. seed": "変化用シード",
   "Var. strength": "変化の強度",
   "Steps": "ステップ数",
-  "Prompt S/R": "プロンプトS/R",
+  "Prompt S/R": "プロンプトの検索/置換",
   "Prompt order": "プロンプトの順序",
   "Sampler": "サンプラー",
   "Checkpoint name": "Checkpoint名",
